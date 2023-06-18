@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!--GoogleFont-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+
+    <!---box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Application</a>
+
+      <i class='bx bx-menu' id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">首頁</a>
+        <a href="#about">關於我</a>
+        <a href="#services">問答專區</a>
+        <a href="#portfolio">作品集</a>
+        <a href="#contact">聯繫我</a>
+      </nav>
+    </header>
+
+    <!--home section design-->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Shaka Lin</h1>
+        <!-- Front-End student -->
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>這是為了申請報名<span>WeHelp</span>跟著Codehal製作的網站，雖然是一邊看一邊製作，但對製作的內容都有了解，不單單只是照本宣科</p>
+        <div class="social-media">
+          <a href="#"><i class='bx bxl-facebook'></i></a>
+          <a href="#"><i class='bx bxl-twitter'></i></a>
+          <a href="#"><i class='bx bxl-instagram'></i></a>
+          <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+        <a href="#" class="btn">裝飾按鈕</a>
+      </div>
+
+      <div class="home-img">
+        <img src="images/home.png" alt="home">
+      </div>
+    </section>
+
+    <!-- about section design -->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./images/about.png" alt="about">
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">個人 <span>簡介</span></h2>
+        <h3>Front-End student</h3>
+        <p>大家好，我是林彥宏。今年已經29歲，曾在餐飲業工作過一段時間，但我並不喜歡餐飲業的兩頭班制度，覺得這樣浪費了很多時間。我對於烹飪很有興趣，但我更希望把它當作一種嗜好而不是職業。<br>在我的成長過程中，我並沒有花太多時間在學習上，主要都是玩樂。即使在工作之後，下班後也沒有繼續精進自己。快要30歲的我感到相當焦慮，因此決定要認真地學習一個專業領域。<br>目前，我對HTML和CSS是相對熟悉的程度，但在JavaScript方面只有基礎知識。我曾使用過Less和Sass，並且目前正在上Udemy的線上課程，希望能夠進一步提升自己的技能。<br>我現在努力保持著學習這件事，並且希望能夠找到一個充滿挑戰和成長機會的學習環境。我相信只有持續不斷努力及不間斷的練習，才能夠成為一位優秀的前端開發者。<br>謝謝您花時間閱讀我的簡介，我期待著有機會能夠參與這次的WeHelp轉職計畫並與大家一起學習和成長。</p>
+        <a href="#" class="btn">裝飾按鈕</a>
+      </div>
+    </section>
+
+    <!-- service section design -->
+
+    <section class="services" id="services">
+      <h2 class="heading">問答 <span>專區</span></h2>
+
+      <div class="services-container">
+
+        <div class="services-box">
+          <i class='bx bx-desktop'></i>
+          <h3>為了成為軟體工程師， <br>曾經做過什麼努力?</h3>
+          <p>我自主學習了相關的程式語言和技術，包括HTML、CSS、JavaScript等。我通過在線課程、教學視頻和書籍來學習並加強我的基礎知識，目前也在Udemy上持續學習</p>
+          <a href="#" class="btn">假按鈕</a>
+        </div>
+
+        <div class="services-box">
+          <i class='bx bxs-paint'></i>
+          <h3>如果參與這個計畫，會怎麼安排學習時間?</h3>
+          <p>早上學習新知識及下午拿來練習，如果需要學習的內容較多我會都拿來學習，可能隔天再複習或練習，晚上打工，打工是沒辦法的事情，要吃飯跟付房租</p>
+          <a href="#" class="btn">假按鈕</a>
+        </div>
+
+        <div class="services-box">
+          <i class='bx bxs-briefcase-alt-2'></i>
+          <h3>是否有想要加入的軟體公司? <br>為什麼想加入該公司?</h3>
+          <p>這個問題對我來說還太遠，目前只希望加入的公司是個能讓我成長的團隊，並且團隊的氛圍良好就好，畢竟跟厲害的人一起做事我想是成長最快的辦法之一。</p>
+          <a href="#" class="btn">假按鈕</a>
+        </div>
+
+         <div class="services-box">
+          <i class='bx bx-sad'></i>
+          <h3>請描述一件讓你產生明顯負面情緒的事情，你如何處理該情緒？</h3>
+          <p>對自己的工作看不到未來這件事會讓我產生負面情緒，原因為做了好幾年薪水只多三四千，假如換一份餐飲業一樣要從頭再來，得不到技術的累積薪水的成長，至於處理的方法是聽音樂，或看看其他人辛苦的地方，藉此鼓勵自己讓自己盡量正面看待</p>
+          <a href="#" class="btn">假按鈕</a>
+        </div>
+
+         <div class="services-box">
+          <i class='bx bx-notepad'></i>
+          <h3>關於這份申請網頁，請分享一個你開發時的技術心得。</h3>
+          <p>就JavaScript來說因為我自己是寫不太出來，所以我會請CHAT GPT來解釋給我聽這個程式碼是怎麼寫的或是為什麼使用這個Method等等以便我來了解</p>
+          <a href="#" class="btn">假按鈕</a>
+        </div>
+
+        <div class="services-box">
+          <i class='bx bxs-chat'></i>
+          <h3>其他想要對我們說的事情？</h3>
+          <p>有去看過WeHelp的專案展示，我覺得很厲害，期許自己能跟大家一樣做出厲害的專案，但也是有擔心的地方，會害怕自己跟不上進度或是無法解決問題，假如遇到要查資料的地方會害怕自己英文程度低不知道該怎麼查遇到的問題等，雖然擔心顧慮很多但有機會就該嘗試看看，所以我報名了這次的WeHelp!</p>
+          <a href="#" class="btn">假按鈕</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- portfolio section design -->
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="./images/portfolio1.jpg" alt="">
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, voluptatibus!</p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./images/portfolio1.jpg" alt="">
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, voluptatibus!</p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./images/portfolio1.jpg" alt="">
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, voluptatibus!</p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./images/portfolio1.jpg" alt="">
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, voluptatibus!</p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./images/portfolio1.jpg" alt="">
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, voluptatibus!</p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./images/portfolio1.jpg" alt="">
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, voluptatibus!</p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- contact section design -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name">
+          <input type="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Mobile Number">
+          <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+      </form>
+    </section>
+
+    <!-- footer design -->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Codehal | All Right Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+      </div>
+    </footer>
+
+    <!--scroll reveal-->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--typed js-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!--cusom js-->
+    <script src="./app.js"></script>
+  </body>
+</html>
